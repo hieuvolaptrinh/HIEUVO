@@ -117,7 +117,6 @@ const getAllDaysIn2023 = () => {
   return allDays;
 };
 
-// Check if a date belongs to the "VND HIEU" pattern
 const isDateInNegativePattern = (date) => {
   const startOfYear = moment("2023-01-01");
   const dayOfYear = date.diff(startOfYear, "days");
