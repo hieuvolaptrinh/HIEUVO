@@ -1,0 +1,17 @@
+{
+  "name": "github-contribution-generator",
+  "version": "1.0.0",
+  "description": "Generate custom GitHub contribution pattern",
+  "main": "contribution-generator.js",
+  "type": "module",
+  "scripts": {
+    "start": "node contribution-generator.js"
+  },
+  "dependencies": {
+    "github-contribution-generator": "file:",
+    "jsonfile": "^6.1.0",
+    "moment": "^2.29.4",
+    "random": "^3.0.6",
+    "simple-git": "^3.16.0"
+  }
+}
